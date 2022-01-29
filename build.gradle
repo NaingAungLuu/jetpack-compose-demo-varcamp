@@ -1,0 +1,21 @@
+buildscript {
+    ext {
+        compose_version = "1.2.0-alpha02"
+        kotlin_version = "1.6.10"
+        nav_version = "2.3.5"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        def nav_version = "2.3.5"
+        classpath("com.android.tools.build:gradle:7.1.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

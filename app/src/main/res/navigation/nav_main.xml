@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="me.naingaungluu.jetpackcomposedemo.ui.screens.home.HomeFragment"
+        android:label="HomeFragment"
+        >
+        <action
+            android:id="@+id/action_homeFragment_to_listViewDemoFragment"
+            app:destination="@id/listViewDemoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_interoperabilityDemoFragment"
+            app:destination="@id/interoperabilityDemoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_stateManagementDemoFragment"
+            app:destination="@id/stateManagementDemoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listViewDemoFragment"
+        android:name="me.naingaungluu.jetpackcomposedemo.ui.screens.listViewDemo.ListViewDemoFragment"
+        android:label="ListViewDemoFragment" />
+    <fragment
+        android:id="@+id/interoperabilityDemoFragment"
+        android:name="me.naingaungluu.jetpackcomposedemo.ui.screens.interopDemo.InteroperabilityDemoFragment"
+        android:label="InteroperabilityDemoFragment" >
+        <action
+            android:id="@+id/action_interoperabilityDemoFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="me.naingaungluu.jetpackcomposedemo.ui.screens.webView.WebViewFragment"
+        android:label="WebViewFragment" />
+    <fragment
+        android:id="@+id/stateManagementDemoFragment"
+        android:name="me.naingaungluu.jetpackcomposedemo.ui.screens.stateManagementDemo.StateManagementDemoFragment"
+        android:label="StateManagementDemoFragment" />
+
+</navigation>
