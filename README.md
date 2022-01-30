@@ -6,9 +6,6 @@
 
 # Speaker
 
----
-
-![Image from iOS.jpg](Jetpack%20Compose%20in%20Reality%20c1166289687343088e4e33d410eb85ba/Image_from_iOS.jpg)
 
 ### Naing Aung Luu (@Harry)
 
@@ -17,15 +14,17 @@
 - A Computer Science Student at University of Yangon
 - Loves 🎤 singing  and 🏀 basketball
 
+
+## Audience Notes
+[View on Notion](https://naingaungluu.notion.site/Jetpack-Compose-in-Reality-23ad0c960792452d9892d6225b356723)
+
 ## Presentation Slides
 
----
 
 [JetpackCompose In Reality VarCamp2022 - Google Drive](https://drive.google.com/drive/folders/1APhV1htwhkGKT0YuEJKT3ExpfnJflLE0?usp=sharing)
 
 ## Useful Resources
 
----
 
 [Declarative vs Imperative UI in Android](https://www.section.io/engineering-education/declarative-vs-imperative-ui-android/)
 
@@ -37,7 +36,6 @@
 
 ### Feel free to follow me on the following platforms ✌🏻
 
----
 
 [Naing Aung Luu - Medium](https://naingaungluu.medium.com)
 
