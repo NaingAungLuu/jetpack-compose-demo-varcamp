@@ -33,20 +33,13 @@ class ListViewDemoFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return ComposeView(requireContext()).apply {
-            setContent {
-                DemoAppTheme {
-                    ListViewDemoScreen()
-                }
-            }
-        }
-//        binding = FragmentListViewDemoBinding.inflate(inflater, container, false)
-//        return binding.root
+        binding = FragmentListViewDemoBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        setupUi()
+        setupUi()
     }
 
     private fun setupUi() {
