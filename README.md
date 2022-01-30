@@ -23,16 +23,6 @@
 
 [JetpackCompose In Reality VarCamp2022 - Google Drive](https://drive.google.com/drive/folders/1APhV1htwhkGKT0YuEJKT3ExpfnJflLE0?usp=sharing)
 
-## Useful Resources
-
-
-[Declarative vs Imperative UI in Android](https://www.section.io/engineering-education/declarative-vs-imperative-ui-android/)
-
-[Understanding Jetpack Compose - Part 1 of 2](https://medium.com/androiddevelopers/understanding-jetpack-compose-part-1-of-2-ca316fe39050)
-
-[](https://developer.android.com/jetpack/compose)
-
-[](https://developer.android.com/jetpack/compose/animation#animatedvisibility)
 
 ### Feel free to follow me on the following platforms ✌🏻
 
